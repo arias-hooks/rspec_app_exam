@@ -1,7 +1,6 @@
 require 'rails_helper'
 
 RSpec.describe 'Task', type: :system do
-  include ApplicationHelper
   describe 'Task一覧' do
     let(:project) { create(:project) }
     let!(:task) { create(:task) }
